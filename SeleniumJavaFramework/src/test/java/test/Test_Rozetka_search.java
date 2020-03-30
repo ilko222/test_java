@@ -22,7 +22,7 @@ public class Test_Rozetka_search {
     @BeforeSuite
     public void setUpTest() {
         // start reporters
-        htmlReporter = new ExtentHtmlReporter("extent.html");
+        htmlReporter = new ExtentHtmlReporter("report.html");
         // create ExtentReports and attach reporter(s)
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
